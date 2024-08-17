@@ -1,11 +1,13 @@
-
+import Greeting from './Greeting'
+import FavoriteFood from './Food'
 import './App.css'
 
 function App() {
 
   return (
     <>
-    <p>Hello World</p>
+    <Greeting />
+    <FavoriteFood />
     </>
   )
 }
